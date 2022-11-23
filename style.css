@@ -1,0 +1,383 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+}
+.center{
+    width: 75%;
+    margin: auto;
+}
+.security{
+    background-color: #020A18;
+    height: 140vh;
+}
+.security .center .navbar .robot img{
+    width: 27px;
+    height: 37px;
+    margin-top: 36px;
+}
+.security .center .navbar .robot h1{
+    color: #3A68B8;
+    font-weight: 600;
+    margin: 40px 84px 33px 15px;
+    font-size: 22.5455px;
+} 
+.security .center .navbar .robot h1:hover{
+    cursor: pointer;
+    background-color: #9b1f1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: bisque;
+    transition: all 0.7s ease;
+}
+.security .center .navbar button:hover{
+    cursor: pointer;
+    background-color: #c71c1c;
+    border-radius: 5px;
+    color: bisque;
+    transition: all 0.7s ease;
+}
+.security .center .navbar li:hover a{
+    cursor: pointer;
+    background-color: #9b1f1f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: bisque;
+    transition: all 0.7s ease;
+}   
+.security .center .navbar{
+    display: flex;
+}
+.security .center .navbar .nav-items{
+    margin-top: 45px;
+}
+.security .center .navbar .nav-items ul li{
+    list-style: none;
+}
+.security .center .navbar .nav-items ul{
+    display: flex;
+    gap: 40px;
+}
+.security .center .navbar .nav-items ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+}
+.security .center .navbar button{
+    margin: 30px 0px 24px 230px;
+    padding: 10px 20px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.security .center .navbar .robot{
+    display: flex;
+}
+.security .center .artificial .left h6{
+    font-weight: 600;
+    font-size: 18px;
+    color: #3A68B8;
+}
+.security .center .artificial .right img{
+    width: 532px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 534px;
+}
+.security .center .artificial{
+    display: flex;
+}
+.security .center .artificial .left h1{
+    font-weight: 800;
+    color: white;
+    font-size: 55px;
+}
+.security .center .artificial .left p{
+    font-weight: 800;
+    color: white;
+    opacity: 0.7;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.security .center .artificial .left button{
+    padding: 15px 40px;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 15px 107px 0px ;
+}
+.security .center .artificial .left button i{
+    margin-right: 10px;
+    font-size: 14px;
+}
+.security .center .artificial .left button:hover{
+    background-color: rgb(10, 90, 14);
+    cursor: pointer;
+    transition: all 0.7s ease;
+    border-radius: 20px;
+}
+.security .center .artificial .right{
+    width: 30% ;
+}
+.security .center .artificial .left{
+    margin-top: 130px;
+    margin-right: 60px;
+    width: 55%;
+}
+.security .center .logo .ips{
+    margin-right: 35px ;
+}
+.security .center .logo img:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.security .center .logo .mn{
+    width: 200px;
+    height: 60px;
+   justify-content: space-between;
+   padding: 0px 35px;
+}
+.security .center .logo{
+    margin-top: 90px;
+}
+.apply{
+    background-color: #020A18;
+}
+.apply .center{
+    display: flex;
+}
+.apply .center .left img{
+    width: 600px;
+    height: 620;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.apply .center .left{
+    width: 60%;
+}
+.apply .center .right{
+    margin-left: 70px;
+    width: 40%;
+}
+.apply .center .right h1{
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: 210px;
+    color: white;
+}
+.apply .center .right p{
+    font-weight: 600;
+    color: white;
+    opacity: 0.7;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.apply .center .right button{
+    margin-top: 50px;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #3A68B8;
+}
+.apply .center .right button:hover{
+    background-image: linear-gradient(rgb(209, 22, 22),rgb(209, 202, 202),rgb(6, 69, 18));
+    cursor: pointer;
+    color: black;
+    rotate: 360deg;
+    transition: all 0.7s ease;
+    border-radius: 20px;
+}
+.agency .awards {
+    border-radius: 10px;
+    width: 18.5%;
+    background-color: #181f2c ;
+    text-align: center;
+}
+.agency .awards:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.agency{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #020A18;
+}
+.agency .awards img{
+    width: 60px;
+    margin-top: 30px;
+    height: 60px;
+}
+.agency .awards h1{
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+.agency .awards .global{
+    padding: 0px 20px 20px 20px;
+}
+.agency .awards .global p{
+    margin-top: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    opacity: 0.7;
+}
+.dot{
+    background-color: #020A18;
+    width: 100%;
+    text-align: center;
+}
+.dot img{
+    width: 50px;
+    height: 13px;
+    margin-bottom: 15px;
+}
+.client{
+    background-color: #020A18;
+    padding-bottom: 70px;
+}
+.client .center{
+    display: flex;
+}
+.client .center .right img{
+    width: 520px;
+    height: 540;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+.client .center .right{
+    width: 65%;
+}
+.client .center .left{
+    margin-right: 70px;
+    width: 45%;
+    margin-left: 130px;
+}
+.client .center .left h1{
+    font-weight: 700;
+    font-size: 27px;
+    margin-top: 100px;
+    color: white;
+}
+.client .center .left p{
+    font-weight: 600;
+    color: white;
+    opacity: 0.7;
+    margin-top: 30px;
+    font-size: 12px;
+}
+.info{
+    padding: 40px 0px 80px 0px;
+    background-color: #020A18;
+}
+.info .center{
+    display: flex;
+}
+.info .bot img{
+    width: 35px;
+    height: 45px;
+}
+.info .bot h1{
+    font-weight: 600;
+    color: #3A68B8;
+    font-size: 13px;
+    margin-top: 5px;
+}
+.info .bot p{
+    margin-top: 7px;
+    font-weight: 450;
+    font-size: 11px;
+    color: white;
+    opacity: 0.6;
+}
+.info .bot{
+    width: 26%;
+    margin-left: 130px;
+    margin-right: 32px;
+}
+.info .bot h6{
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.info .bot a{
+    text-decoration: none;
+    color: white;
+    padding-left: 7px;
+}
+.info .bot a:hover{
+    text-decoration: underline;
+    color: rgb(207, 16, 16);
+}
+.info .bot .lock{
+    margin-top: 30px;
+}
+.info .center .colection {
+    margin-left: 25px;
+}
+.info .center .colection h1{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+.info .center .colection p:nth-child(2){
+    padding-top: 10px;
+}
+.info .center .colection p{
+    margin-top: 20px;
+    font-weight: 450;
+    font-size: 12px;
+    color: white;
+    opacity: 0.6;
+}
+.info .center .footer{
+    width: 17%;
+    margin-left: 60px;
+}
+.info .center .store{
+    width: 19%;
+    margin-left: 60px;
+
+}
+.info .center .store h1{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+.info .center .store p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 450;
+    font-size: 11px;
+    color: white;
+    opacity: 0.6;
+}
+
+.info .store a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.info .store a:hover{
+    text-decoration: underline;
+    color: rgb(207, 16, 16);
+}
+.info .store .icons i{
+    color: white;
+    margin: 20px 5px 20px 0px;
+}
+.info .store .icons i:hover{
+    cursor: pointer;
+    color: rgb(20, 109, 109);
+}
